@@ -1,19 +1,20 @@
 name=input("Enter your name : ")
-if(name=="Anshu")&(name=="Anshu Sarkar")&(name=="Anshu"):
+if(name == "Anshu Sarkar"):
     print("Hello , Anshu !")
     age=int(input("Enter your age : "))
-    if(age==19)&(age<19):
-        print("Welcome ! ")
+    if age in range (15,17):
+        print("\nWelcome ! ")
+        print("\nSo you are now " , age , "!\n")
     elif age == 18 :
         print("\nYou just turnd ",age," !\nSo cool !\n")
     else:
-        print("\n  SUS !!")
-        age=int (input ("\nAnshu please tell me your age agin,\nlet me write it down 😊  : "))
-        if age < 100 :
+        print("\n  SUS !! ")
+        age1=age
+        if age1 in range (19,100) :
             print("\nSo you are now :  " , age , "\n" )
-        elif age == 100 :
+        elif age1 == 100 :
             print("\nHuh ! Himalayan monk sopted ! 😃 \n")
-        elif age >100:
+        elif age1 >100:
             print("\nTell me is imortality a curse ?\n")
 else :
-    print("Not Welocme ! Bye ")           
+    print("Not Welocme ! Bye ")     
