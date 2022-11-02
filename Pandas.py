@@ -1,4 +1,5 @@
 import pandas as pd
+
 dict = {                       
     "name":['anshu','shubh'],  
     "marks":[99,93],         # dict is a dictionary
