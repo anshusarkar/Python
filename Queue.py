@@ -2,12 +2,12 @@ Set={}
 def insert():
     x=int(input("Enter the number of of data to be inserted : "))
     for i in range (x) :
-        print("Enter the value :")
-        inp=int(input())
+        inp=int(input("Enter a value : \n>> "))
         Set[i]=inp
 def display():
     print(Set)
-def delete(): 
+def delete():
+    print("This is Queue maintains FIFO ")
     i=int(input("Enter the initial index(Index starts from zero) : "))
     j=int(input("Enter the final index(Eter the initial index agagin to delete one at inital index) : "))
     if i==j :
@@ -16,11 +16,12 @@ def delete():
         for x in range(i,j):
             Set[x] = 0
 choice = int     
+print("\nHello Their !")
 while choice !=4:
-    print("Enter 1 to insert the value,")
-    print("Enter 2 to display the value,")
-    print("Enter 3 to delete the value, ")
-    print("Enter 4 to exit.")
+    print("\n\nEnter 1 to insert  the value ,")
+    print("Enter 2 to display the value ,")
+    print("Enter 3 to delete  the value , ")
+    print("Enter 4 to exit .")
     choice = int(input("\nEnter your choice : "))
     if choice == 1:
         insert()
@@ -33,7 +34,7 @@ while choice !=4:
             print("\n\n")
     elif choice == 3:
         delete()
-        print("\nDone...")
+        print("\nDone...\n\n")
     if choice > 4:
         print("\nWrong choice!\n")
 print("\n\nExiting......\n\n")
