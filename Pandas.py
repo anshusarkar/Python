@@ -7,4 +7,3 @@ dict = {
 }
 df = pd.DataFrame(dict)
 print(df)
-df.to_csv('friends.csv')

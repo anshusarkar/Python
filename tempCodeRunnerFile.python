@@ -1,0 +1,5 @@
+import pandas as pd
+
+chart ={}
+size = int(input("Enter the size of the chart : "))
+print("Chart will be created of size of " ,size,"X",size )
