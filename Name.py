@@ -1,5 +1,5 @@
 name=input("Enter your name : ")
-if(name == "Anshu Sarkar"):
+if(name == "Anshu Sarkar"or name =="anshu"or name=="anshu sarkar "):
     print("Hello , Anshu !")
     age=int(input("Enter your age : "))
     if age in range (15,17):
