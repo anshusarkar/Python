@@ -1,0 +1,5 @@
+def Function (*num , **name,):
+   print(type(num))
+   print(type(name))
+    
+Function()
