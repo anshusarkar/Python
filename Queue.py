@@ -9,7 +9,7 @@ def display():
 def delete():
     print("This is Queue maintains FIFO ")
     i=int(input("Enter the initial index(Index starts from zero) : "))
-    j=int(input("Enter the final index(Eter the initial index agagin to delete one at inital index) : "))
+    j=int(input("Enter the final index(Enter the initial index agagin to delete one at inital index) : "))
     if i==j :
         Set[i]=0
     else :
