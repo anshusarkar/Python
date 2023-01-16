@@ -1,2 +1,2 @@
 import this 
-#Importing thi and making the code run gives a poem written by Guido van rossum
+#Importing this and making the code run gives a poem written by Guido van rossum
