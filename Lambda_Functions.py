@@ -16,8 +16,8 @@ print(avg(3,2,4))
 
 
 
-def qube(fx,value):
+def cube(fx,value):
     return fx(value)
     
-print(qube(lambda x : x*x*x , 3))
+print(cube(lambda x : x*x*x , 3))
 
