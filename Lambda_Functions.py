@@ -8,7 +8,7 @@ print(squre(inp))
 print(avg(3,2,4))
  
 # Lamda functions get's used to pass function as a parameter for a function to maintain annonomasity
-# syntax : def 'function_name'('Annoumous_Varriable' , values to be passed ):
+# syntax : def 'function_name'('Annoumous_Varriable' , values to be passed ): 
 #                           return fx(value)
 #          print('function_name'(lambda_abbribriation , vales to be passed))
 
@@ -16,8 +16,8 @@ print(avg(3,2,4))
 
 
 
-def cube(fx,value):
+def _ (fx,value) :    # To make function extrimly annomous function name is replaced with _ 
     return fx(value)
     
-print(cube(lambda x : x*x*x , 3))
+print( _ (lambda x : x*x*x , 3))
 
