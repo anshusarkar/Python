@@ -7,7 +7,7 @@ def average (*numbers): # '*' is character that get's used to pass a tuple as an
     
 average(1,2,3)
 
-def name (**names): #'**' is character that get's used to pass a dictionary as an argumnet, that is called kargs
+def name (**names): #'**' is character that get's used to pass a dictionary as an argumnet, that is called 'kargs'
     print(type(names))
     print("Hello !",names["Firstpreson"],names["Secondperson"],names["Thirdperson"])
 name(Firstpreson = "Anshu" , Secondperson="X", Thirdperson="Y" )
