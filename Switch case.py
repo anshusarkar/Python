@@ -5,6 +5,7 @@ def switch (inp):
         return "Input was Two"
     else :
         return "Wrong input"
+
 inp=input("Enter a value :")
 
 print(switch(inp))
