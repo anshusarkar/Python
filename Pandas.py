@@ -6,4 +6,5 @@ dict = {
     "city":['Kolkata','mumbai']
 }
 df = pd.DataFrame(dict)
+df.to_csv("friends.csv")
 print(df)
