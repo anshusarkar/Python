@@ -1,5 +1,5 @@
 class Hello:
-      """__dict__ get's used to pack up a constrouctor's conatins into a list """
+      """__dict__ is a dender method which get's used to pack up a constrouctor's conatins into a list """
       def __init__(self, name, age): 
             self.name = name
             self.age = age
