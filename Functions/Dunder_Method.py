@@ -1,6 +1,6 @@
 class A :
     name = "Anshu" 
-    def __len__(self):  # Dender / magic methods with doube underscores at initialzion of the method
+    def __len__(self):  # Dunder / magic methods with doube underscores at initialzion of the method
         i = 0             
         for _ in self.name :
             i = i +1 
