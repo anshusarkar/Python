@@ -10,7 +10,7 @@ print("The shape of the matrix is : ", arr.shape)
 
 row_val=arr.shape[0]
 
-print("Print the value of the row is ",row_val)
+print("The value of the row is ",row_val)
 
 
 
