@@ -23,3 +23,12 @@ def another_function ():
 
 another_function()
 
+# This are equivalent to following ...
+
+a_randome_function = a_function_that_takes_a_function_as_argument(a_randome_function)
+
+another_function = a_function_that_takes_a_function_as_argument(another_function)
+
+# a_randome_function()
+
+# another_function()
