@@ -11,7 +11,7 @@ def a_function_that_takes_a_function_as_argument (fun): # This structure of a fu
     return x
 
 
-@a_function_that_takes_a_function_as_argument # With @ anotation and function name that decorats a function behavior of that function changes ..
+@a_function_that_takes_a_function_as_argument # With @ anotation and function name that decorats a function behavior of a function , changes ..
 def a_randome_function ():
     print("Hello !")
 
@@ -22,3 +22,4 @@ def another_function ():
     print("This is another function that is beeing decorated with decorators ! ")
 
 another_function()
+
