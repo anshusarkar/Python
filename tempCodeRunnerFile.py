@@ -1,0 +1,1 @@
+@a_function_that_takes_a_function_as_argument
