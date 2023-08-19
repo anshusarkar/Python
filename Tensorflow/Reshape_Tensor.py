@@ -15,3 +15,10 @@ tensor3 = tf.reshape(tensor2 , [3,2,1]) # three 2x1 tensors
 print(tensor3)
 
 
+tensor4 = tf.zeros([2,3,4]) # 0ne 3x4 matrix
+
+print(tensor4)
+
+tensor5 = tf.reshape(tensor4 , [2,-1]) # converts 3x4 tensor to 3x1 tensor though applyes on tensor that consists elements more than target tensor
+
+print(tensor5)
