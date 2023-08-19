@@ -7,4 +7,7 @@ Rank_1_tensor = tf.Variable(["Test"], tf.string)
 Rank_2_tensor = tf.Variable(["Test","One"] , ["Ok" , "Echo"] , tf.string)
 
 
-print (Rank_2_tensor)
+#print (Rank_2_tensor)
+
+print(Rank_2_tensor.shape)
+
