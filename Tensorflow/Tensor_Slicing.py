@@ -18,8 +18,8 @@ row1 = tensor[0] #Selects the first row
 
 column1 = tensor[: , 0] #Selects the 1st column
 
-
 row2_and_row4 = tensor[1::2] #Selects the 2nd and 4th row
+
 
 
 
