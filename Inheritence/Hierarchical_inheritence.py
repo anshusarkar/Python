@@ -5,15 +5,15 @@ class A_class :# --------------------------------------------------->|
                                                     #                |
 class B_class(A_class):#<--------------------------------------------|
     def method(self):                               #                |
-        print(A_class().method(), "But called in B class \n")#       |   
+        print(A_class().method(), "But Through in B class \n")#      |   
                                                     #                |               
 class C_class(A_class):#<--------------------------------------------|              
     def method(self):                               #                |
-        print(A_class().method(), "But called in C class \n")#       |
+        print(A_class().method(), "But Through in C class \n")#      |
                                                     #                |         
 class D_class(A_class):#<--------------------------------------------|
     def method(self):                               #                |
-        print(A_class().method(), "But called in D class \n")#       |
+        print(A_class().method(), "But Through in D class \n")#      |
                                                     #                |         
                                                     #                |     
 class E_class(A_class):#<--------------------------------------------|
