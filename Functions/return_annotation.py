@@ -1,5 +1,6 @@
 #First have to know What annotations are ? => It's more like a soft type declaretaion or in the other words even after declaring a 
-#type of input to a varriable diffrent type of value can be inserted into it where in type declaration it isn't supposed to
+#type of input to a varriable diffrent type of value can be inserted into it where in type declaration it isn't supposed to FYI : Their is no way to declare a hard type for a variable in
+python 
 
 var : str = "Hello"
 var = 123 # Even after the warnig the code will run as it's a soft type declation it happens because python is dynamicly typed or in 
@@ -37,3 +38,5 @@ print(power.__annotations__)
 # Conclusion - F strings is much better.
 # and annotations can be used to declare a varriable that's value might change according to the input of the varriable making it more varriable 
 # or a dynamic varriable  
+# even though python variables are dynamic
+# their is no way to hardly declare a type # for a variable in python 
