@@ -1,5 +1,6 @@
 #First have to know What annotations are ? => It's more like a soft type declaretaion or in the other words even after declaring a 
-#type of input to a varriable diffrent type of value can be inserted into it where in type declaration it isn't supposed to FYI : Their is no way to declare a hard type for a variable in  #python 
+#type of input to a varriable diffrent type of value can be inserted into it where in type declaration it isn't supposed to
+# FYI : Their is no way to declare a hard type for a variable in  #python 
 
 var : str = "Hello"
 var = 123 # Even after the warnig the code will run as it's a soft type declation it happens because python is dynamicly typed or in 
