@@ -13,7 +13,7 @@ class Father(Grand_father):
 #                   |
 #                   |
 #                   v
-        
+         
 class Child(Father):
     def quality_of_children(self):
         print(super().quality_of_grand_father())
