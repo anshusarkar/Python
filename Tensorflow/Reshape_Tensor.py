@@ -15,7 +15,7 @@ tensor3 = tf.reshape(tensor2 , [3,2,1]) # three 2x1 tensors
 print(tensor3)
 
 
-tensor4 = tf.zeros([2,3,4]) # 0ne 3x4 matrix
+tensor4 = tf.zeros([2,3,4]) # two 3x4 matrix
 
 print(tensor4)
 

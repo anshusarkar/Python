@@ -13,13 +13,13 @@ class Father(Grand_father):
 #                   |
 #                   |
 #                   v
-        
-class Children(Father):
+         
+class Child(Father):
     def quality_of_children(self):
         print(super().quality_of_grand_father())
     pass
 
-C = Children() # Here child class is inheriting method from a class 2-levels above hence it's multilevel inheritance
+C = Child() # Here child class is inheriting method from a class 2-levels above hence it's multilevel inheritance
 
 C.quality_of_children()
         
