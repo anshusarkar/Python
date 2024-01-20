@@ -1,0 +1,1 @@
+Python is the programming language created by Guido van Rossum in 1989 that is dynamically typed, interpreted, compiled, object-oriented, procedural, scripting, and a high-level programming language. It was syntactically inspired from ABC and Modula-3 languages.
