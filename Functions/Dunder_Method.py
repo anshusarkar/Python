@@ -17,3 +17,9 @@ class B:
             return i
 
 print(len("Anshu"))
+
+# if__name=="__main__" dinder method 
+# if _name_ == "__main__: 
+# basically says "run this code if the file is being executed (and NOT imported)." 
+# If you don't have it, importing your .py file will execute all of the code in the body of the 
+
