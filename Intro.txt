@@ -1,1 +1,53 @@
-Python is the programming language created by Guido van Rossum in 1989 that is dynamically typed, interpreted, compiled, object-oriented, procedural, scripting, and a high-level programming language. It was syntactically inspired from ABC and Modula-3 languages.
+Python, created by Guido van Rossum in 1991, is a high-level, dynamically typed, object-oriented,  interpreted , compiled , scripting language. 
+Widely used in web development, data science, AI, and automation, Python draws syntactic inspiration from the ABC and Modula-3 languages. 
+Known for simplicity and readability, it supports multiple paradigms and has a large, active community.
+
+Note : As python is scripting language the script must be given permisiion to execute by using chmod +x in linux system just like shell script
+       but for that #!/usr/bin/env python3 must the given as the first a in the script which set's up the python defualt environment
+
+       Or can be executed from python shell just like Jshell for Java
+
+       Or alternatively can be executed using python3 filename.py in linux system 
+
+
+
+
+Terms and their meanings used :
+
+                1) Interpreted : A prog lang is "Interpreted"
+                   when it translates or interpretes from one language to
+                   another example : Java , Python 
+
+                   "And inspiration dosen't mena line by line execution"
+
+                2) Compiled : A prog lang is "Compiled" when it
+                   get's translated into the system understandable byte code 
+                   
+                   "Almost every language is "Compiled" though not every language
+                   is "Interpreted" like C,C++"
+                
+                3) Dynamically Typed : A prog lang is "Dynamically Typed" when
+                   The lang dosen't requires itself to awared of the data type
+                   by an user 
+
+                   example : Javascript , Python , shellscript
+
+                4) Object oriented : A prog lang is "Object oriented" when
+                   principles and concepts of object-oriented programming (OOP)
+
+                   it's a praadigm that ode and data into reusable structures called objects
+                   (object == an instance of a struct in c)
+
+                   (praadigm = Way of writing )
+
+                   these are the featurs of a object oriented lang :
+
+                   Encapsulation: Bundling of data and the methods that operate on that data into a single unit, i.e., an object.
+
+                   Inheritance: Mechanism that allows a new class to inherit properties and behaviors from an existing class.
+
+                   Polymorphism: The ability of different objects to respond to the same message (method call) in different ways.
+
+                   Abstraction: Simplifying complex systems by modeling classes based on the essential properties and behaviors.
+
+                   example of oop lang : Java , C++ , C # , Python , Javascript
