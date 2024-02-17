@@ -5,11 +5,11 @@ Known for simplicity and readability, it supports multiple paradigms and has a l
 Note : As python is scripting language the script must be given permisiion to execute by using chmod +x in linux system just like shell script
        but for that #!/usr/bin/env python3 must the given as the first a in the script which set's up the python defualt environment
 
-       Or can be executed from python shell ( called IDEL ) just like Jshell for Java
+       Or can be executed from python shell ( called IDLE ) just like Jshell for Java (IDEL == "Intregrated development learning environment)
 
        Or alternatively can be executed using python3 filename.py in linux system 
 
-       To envoke IDEL use py in windows terminal or use pythton3 in linux 
+       To envoke IDLE use py in windows terminal or use pythton3 in linux 
 
 
 
