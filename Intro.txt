@@ -11,7 +11,9 @@ Note : As python is scripting language the script must be given permisiion to ex
 
        To envoke python shell use py in windows terminal or use pythton3 in linux and to exit use exit()
 
-       IDEL is a IDE that can be installed using sudo apt command in linux  (IDEL == "Intregrated development learning environment)
+       IDLE is a IDE that can be installed using sudo apt command in linux  (IDLE == "Intregrated development learning environment)
+
+       invoke idel using command IDEL
 
 
 Terms and their meanings used :
