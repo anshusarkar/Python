@@ -13,6 +13,13 @@ Note : As python is scripting language the script must be given permisiion to ex
 
        IDEL is a IDE that can be installed using sudo apt command in linux  (IDEL == "Intregrated development learning environment)
 
+      Another way of way writing code is by using notebooks (ex - Doogle collab , Jupyter etc)
+
+      they runs on a C# based kernel
+
+      hence the extension ipynb which stands for "iron python notebook"
+
+      Or just use vs code can do all of them 
 
 Terms and their meanings used :
 
