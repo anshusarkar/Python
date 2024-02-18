@@ -1,0 +1,5 @@
+# Strings are iterable too !
+S = "This is a real big sentence belive me !"
+
+for i in S:
+    print(i)
