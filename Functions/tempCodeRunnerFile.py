@@ -1,5 +1,12 @@
-l = [1,2,8,9,6,5,4,4,7,522,345]
+l = ['A', 'B' ,'C' ,'D']
+l2 = ['I' , 'II' , 'III','IV']
 
-print(max(l))
+zipped_list = list(zip(l2 , l)) #list of 
 
-print(min(l))
+zipped_dictionary = dict(zip(l2 , l))
+
+zipped_tupple = set(zip(l2 ,l))
+
+print(zipped_list)
+
+print(type(zipped_list[0]))
