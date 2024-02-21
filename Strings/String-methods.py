@@ -13,3 +13,6 @@ print("123456789".isnumeric())
 
 print(int("12345") + int("54321"))
 
+print("Mountains".upper())
+
+print("Montains".lower())
