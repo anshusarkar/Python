@@ -26,3 +26,12 @@ for i in range(10,110,10):
     
 # The :>3 specifies to print values of varriables to be allinged at right by three number of spaces
 # and for :>6 specifies to print values following 6 spaces by right 
+
+# {:d}   integer value "{0:.0f}".format(10.5) → '10'
+# {:.2f} floating point with that many decimals'{:.2f}'.format(0.5) → '0.50'
+# {:.2s} string with that many characters'{:.2s}'.format('Python') → 'Py'
+# {:<6s} string aligned to the left that many spaces'{:<6s}'.format('Py') → 'Py    '
+# {:>6s} string aligned to the right that many spaces'{:>6s}'.format('Py') → '    Py'
+# {:^6s} string centered in that many spaces '{:^6s}'.format('Py') → '  Py  '
+
+

@@ -1,4 +1,7 @@
 # Strings are iterable too !
+# They are a sequence of chracters and are immutable
+# like a char[] in python
+
 S = "This is a real big sentence belive me !"
 
 for i in S:

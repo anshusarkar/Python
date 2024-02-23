@@ -11,6 +11,8 @@ print("Forest".endswith("rest"))
 
 print("123456789".isnumeric())
 
+print("abcdefg".isalpha())
+
 print(int("12345") + int("54321"))
 
 print("Mountains".upper())
@@ -31,7 +33,8 @@ print("...".join(l))
 
 # split function splits a sentence into a list
 
-S = "Hello, wolrd !"
+S = "Hello, world !"
 
 print(S.split())
 
+print(S.replace("world", "sekai"))

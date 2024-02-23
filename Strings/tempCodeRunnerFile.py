@@ -1,7 +1,7 @@
-price = 1254.9862
+name = "Anshu"
 
-tax = 0.18
+age = 20
 
-print("The prince of the product is : {}".format(price))
+exact_age = 20.5
 
-print("The absolute cost of the product with tax is : {:.2f}".format(price*tax))
+print("My name is %s, my age is %d, to be exact %f" %name %age %exact_age)
