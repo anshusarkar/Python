@@ -44,6 +44,7 @@ for position, name in enumerate(Winners):
     # The function would return two tuples
 
 # This is called a list comprehension
+
 z = [x for x in range(0,11) if x % 3 == 0] # creating a list of divideables of 3 in 1-10
 
 print(z)
