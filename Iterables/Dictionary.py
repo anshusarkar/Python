@@ -17,7 +17,7 @@ Student = {
 for i in Student:
     print(Student[i])
     
-# uSING two varriables to print both key and value pairs
+# Using two varriables to print both key and value pairs
 
 for i , j in Student.items():
     print("{}'s rollno. is : {}".format(i,j))

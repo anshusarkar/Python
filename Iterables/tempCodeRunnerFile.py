@@ -1,39 +1,62 @@
 
-Student = {
-   "Anshu":  1 ,
-   "Ram" :2  ,
-   "Lelouch": 3  
-}
+# In python lists are mutable data types that can hold any data types in them in consigutive manner
 
-# Iterating over Dictionaries 
+# Often used when the number of insertion for a dataset is unkown
 
-for i in Student:
-    print(Student[i])
+list=[] 
+for  i in range(5):
+    x=int(input("Enter a value : "))
+    list.append(x) # append alaways inserts elements at the end position of the list
+print(list)
+   
+# More List methods
+
+fruits = ["Banana", "Pineapple","Apple","Melon"]
+
+fruits.insert(0,"Kiwi") # Inserts values at specific idex
+
+print(fruits)
+
+fruits.insert(100,"Goava") # This will insert value at the max index + 1 position 
+
+print(fruits)
+
+fruits[2] = "Melon" # same as insert function() 
+
+print(fruits)
+
+fruits.remove("Kiwi") # Removes the mentioned value
+
+print(fruits)
+
+fruits.pop(0) # same as remove but pops a value at an index
+
+print(fruits)
+
+print(sorted(fruits,key=len,reverse=False)) # Will sort according to the length of eatch element 
+
+# Using ennumarate to iterate over a list 
+
+Winners = ["Goku" , "Anshu" , "Zero"]
+
+for position, name in enumerate(Winners):
     
-# uSING two varriables to print both key and value pairs
-
-for i , j in Student.items():
-    print("{}'s rollno. is : {}".format(i,j))
+    print("{} - {}".format(position, name))
     
-# Dictionaries are more like enum in c and java
-# Where values are stored in key value pair and also they are mutable 
+    # The function would return two tuples
 
-Student["Zero"] = 4
+# This is called a list comprehension
 
-print(Student)
+z = [x for x in range(0,11) if x % 3 == 0] # creating a list of divideables of 3 in 1-10
 
-# To print the valeus of a dictionary 
+print(z)
 
-print(Student.values())
+# Reversing a list using sort
 
-# To print the keys of a dictionary 
+z.sort(reverse=True)
 
-print(Student.keys())
+z = z[::-1] # again reversing it 
 
-# Or the values and keys can be iterated using for loops
+print(z)
 
-for _ in Student.values():
-    print(_)
-    
-for _ in Student.keys():
-    print(_)
+print(sorted(z,reverse=True))

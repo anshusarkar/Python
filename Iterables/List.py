@@ -33,6 +33,8 @@ fruits.pop(0) # same as remove but pops a value at an index
 
 print(fruits)
 
+print(sorted(fruits,key=len,reverse=False)) # Will sort according to the length of eatch element 
+
 # Using ennumarate to iterate over a list 
 
 Winners = ["Goku" , "Anshu" , "Zero"]
@@ -48,3 +50,13 @@ for position, name in enumerate(Winners):
 z = [x for x in range(0,11) if x % 3 == 0] # creating a list of divideables of 3 in 1-10
 
 print(z)
+
+# Reversing a list using sort
+
+z.sort(reverse=True)
+
+z = z[::-1] # again reversing it 
+
+print(z)
+
+print(sorted(z,reverse=True))
