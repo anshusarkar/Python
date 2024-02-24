@@ -16,4 +16,5 @@ for i in Student:
     print(Student[i])
     
 # Dictionaries are more like enum in c and java
+# Where values are stored in key value pair 
 
