@@ -1,0 +1,13 @@
+all the codes of python must be run mentioning the bin directory at the top like this 
+
+#!/usr/bin/env python3   (env part is python environment)
+
+and must be made a system executable using chmod +x which stands for change mode for linux distros
+
+after which the script can be run using ./filename
+
+That applies on all scripting languages though the # portion may varry
+
+for example it's
+
+#!bin/bash 
