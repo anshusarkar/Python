@@ -40,6 +40,8 @@ Terms and their meanings used :
 
                    However interpretes are system specific and installs diffrent versions for eatch of them for different os
 
+                   though c# and java are not really considered as interpreted by many some how !
+
                 2) Compiled : A prog lang is "Compiled" when it
                    get's translated into the system understandable byte code 
                    
