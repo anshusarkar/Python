@@ -12,3 +12,7 @@ then the command would be :
 
 sudo apt install python3-pil
 
+To check the list of files present in a module that is installed in linux
+
+use command ls -l /usr/lib/python3/dist-packages/"Module-name"
+
