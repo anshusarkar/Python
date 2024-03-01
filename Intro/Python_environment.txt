@@ -1,0 +1,30 @@
+Why use a virtual environment in Python?
+Imagine you're working on two separate Python projects—one requires a specific version of a library, while the other relies on a newer version. Without virtual environments, managing these dependencies could become a nightmare. Here's where virtual environments shine: they allow you to keep your projects isolated, ensuring that changes in one environment do not impact another.
+
+By using virtual environments, you can:
+
+Avoid conflicts between libraries and dependencies.
+
+Test different versions of libraries without affecting your system-wide Python installation.
+
+Maintain a clean and organized development environment.
+
+Collaborate with others while ensuring consistent library versions.
+
+
+To create a virtual environment 
+
+python -m venv "Environment-name"
+
+To generate a txt file contaning packages in an environment
+
+use command :
+
+pip freeze > requirements.txt
+
+and later install them in a new environment using
+
+pip install -r requirements.txt
+
+check on : https://www.coursera.org/learn/python-operating-system/supplement/t6Q5o/virtual-environments
+
