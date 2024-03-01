@@ -36,7 +36,7 @@ Terms and their meanings used :
                    get's translated into the system understandable byte code 
                    
                    "Almost every language is "Compiled" though not every language
-                   is "Interpreted" like C,C++"
+                   is "Interpreted" like C,C++,go and rust"
                 
                 3) Dynamically Typed : A prog lang is "Dynamically Typed" when
                    The lang dosen't requires itself to awared of the data type

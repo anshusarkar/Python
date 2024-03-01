@@ -28,6 +28,6 @@ print(df)
 
 # Calculating the mean of the column2 using class method of pandas
 
-mean=df["column"].mean() # Calling the key attrubte of column that is arr2 and calling .mean() on it 
+mean=df["column2"].mean()
 
 print(mean)
