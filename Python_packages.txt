@@ -1,0 +1,14 @@
+info : All the python packages taht are written and published by workers are called PYPI i.e Python package index and are managed by pip 
+
+to install a python package use command 
+
+sudo apt install python3-"" name of the packages
+
+for example if the name of the package is 
+
+python image libray and apt undestands it as "pil"
+
+then the command would be :
+
+sudo apt install python3-pil
+
