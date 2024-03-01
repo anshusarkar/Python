@@ -11,3 +11,10 @@ That applies on all scripting languages though the # portion may varry
 for example it's
 
 #!bin/bash 
+
+
+though if not written in script both can done by using
+
+python3 filename (for python) 
+
+bash filename (for bash though might require the chmod command)
