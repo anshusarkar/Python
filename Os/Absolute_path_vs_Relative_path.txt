@@ -1,0 +1,19 @@
+Absolute Path:
+
+An absolute path provides the complete location of a file or directory from the root directory.
+It starts from the root directory and includes all the directories in the hierarchy leading to the file or directory.
+It is not dependent on the current working directory.
+Example (on Unix-based systems): /home/user/documents/example.txt
+Relative Path:
+
+A relative path specifies the location of a file or directory relative to the current working directory.
+It does not start from the root directory; instead, it relies on the current working directory as a reference point.
+It is often more concise but may vary depending on the current working directory.
+Examples:
+./documents/example.txt (refers to a file named example.txt in the documents directory within the current working directory)
+../parent_directory/file.txt (refers to a file named file.txt in the parent_directory, one level above the current working directory)
+In summary, absolute paths provide the full path from the root directory, while relative paths provide a path relative to the current working directory. The choice between them depends on the context and requirements of your application.
+
+
+
+

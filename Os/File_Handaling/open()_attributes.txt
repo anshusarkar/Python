@@ -1,0 +1,13 @@
+The open function takes 4 attributs 
+
+"r" : read only (This is the defualt argument so if not passed it wo't matter)
+
+"w" : write only 
+
+"a" : append (Concats lines to a file while opening it)
+
+"r+" : read-write (reads and over-writes in to file)
+
+coursera link for file reading and writing :
+
+https://www.coursera.org/learn/python-operating-system/ungradedLab/CH2FV/practice-notebook-text-files/lab?path=%2Fnotebooks%2FC2M2L1_Reading_And_Writing_Files.ipynb
