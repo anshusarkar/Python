@@ -17,7 +17,7 @@ keys = ["name", "username", "Department"]
 with open('Department.csv', 'w') as D_CSV :
     writer = csv.DictWriter(D_CSV, fieldnames=keys)
     writer.writeheader()
-    writer.writerows(users)
+    writer.writerows(users) 
     
 if  os.path.exists(os.path.join(os.getcwd(), "Department.csv")) == True : # Yes you wrote that part on your own too !
     print("The file has been generated !")  
