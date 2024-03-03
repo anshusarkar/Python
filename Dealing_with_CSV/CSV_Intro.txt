@@ -1,0 +1,10 @@
+CSV stands for : Comma seperated values
+
+It's a widely used file format to store data in the
+from of a table they are actualy plain texts 
+
+but in order to read from them the space between them must be takken care of 
+
+csv_file.txt is the perfect example of it 
+
+csvfile can also end with .csv extension ...
