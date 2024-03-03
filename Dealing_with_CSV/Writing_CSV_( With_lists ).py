@@ -14,3 +14,6 @@ with open('Computer_names_&_IP_adds', 'w') as h_csv:
     
 # if using linux cd in the python/dealing_with_CSV direcotory and 
 # in terminal use cat Computer_names_&_IP_adds to print the files in the terminal
+# and to start writting into terminal a files conataing in linux
+# use command cat > filename and start writting
+# and to delete the file use command rm -rf filename
