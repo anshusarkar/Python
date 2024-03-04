@@ -41,7 +41,7 @@ print(re.search(r"^Z" , "Zero"))
 
 print(re.search(r"[Pp]ython", "Python")) # That checks for the existance for both Python amd python in string "Python"
 
-# Also if not sure the chracters can be searched starting from a-z 
+# Also if not sure the chracters can be searched starting from a-z that is called a chracter class 
 
 print(re.search(r"[a-z]way", "The end of the highway"))
 
@@ -67,3 +67,30 @@ print(re.search(r"cat|dog", "I like both cats and dogs")) # The ceaarch operatio
 
 print(re.findall(r"dog|cat", "I like both dogs and cats")) # This return a list for both the words if the match is sucessfull
 
+# finding a chracter after a portion of a string
+
+print(re.search(r"Py.*n", "Pygmalion"))
+
+# But this function is greedy ... it won't stop for a one search in givven string
+
+print(re.search(r"Py.*n", "Python Programing"))
+
+# See ? To fix that use chracter class in it which would be making it more specific 
+
+print(re.search(r"Py[a-z]*n", "Python Programing"))
+
+# To check occurance of letters on a string 
+
+print(re.search(r"o+l+", "goldfish"))
+
+print(re.search(r"o+l+","woolly"))
+
+# But it won't work for boil , coil etc as these words contains an extra chracter in between them 
+
+# checking if a chracter exits before a word
+
+print(re.search(r"d?og", "It's is a og")) # Here the word og would return as the string dosen't have D in it
+
+# But if the string was "It's a dog"
+
+print(re.search(r"d?og", "It's a dog"))
