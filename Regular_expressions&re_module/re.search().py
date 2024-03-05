@@ -107,3 +107,18 @@ print(re.search(r"\w*", "This is an example")) # This will stop at "this" and wo
 
 print(re.search(r"\w*", "And_this_is_another")) # Also their is \d that get's used to print digits , \s that get's used to check space tab and other escape chracter 
                                                 # \b for word boundries and few others
+
+# Checking the if a starting of a in it  at the starting
+
+print(re.search(r"A.*a", "Argintina"))
+
+# Checking if a string both ends and begins woth a special chracter
+
+print(re.search(r"^A.*a$", "Azerbaijan")) # This will return flash as the string passed event though begains with A dosen't ends with it 
+
+# Checking if a string is valid varriable name or not 
+
+print(re.search(r"^[a-zA-Z_][a-zA-Z0-9_]*$" , "this_is_a_vallid_varriable_name")) 
+
+print(re.search(r"^[a-zA-Z_][a-zA-Z0-9_]*$" , "this isn't a valid varriable name")) # Should return none
+
