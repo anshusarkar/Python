@@ -94,3 +94,16 @@ print(re.search(r"d?og", "It's is a og")) # Here the word og would return as the
 # But if the string was "It's a dog"
 
 print(re.search(r"d?og", "It's a dog"))
+
+# Checking the .com is a string or a string that contains expression with . indentation
+
+print(re.search(r".com", "welcome")) # This won't work , to make it work "\" escape hracter must be used
+
+print(re.search(r"\.com", "www.google.com")) # Though \n , \t must be takken care of as they does diffrent works 
+
+# To check letters, numbers and underscores the escape chracter \w get's used
+
+print(re.search(r"\w*", "This is an example")) # This will stop at "this" and would return it
+
+print(re.search(r"\w*", "And_this_is_another")) # Also their is \d that get's used to print digits , \s that get's used to check space tab and other escape chracter 
+                                                # \b for word boundries and few others
