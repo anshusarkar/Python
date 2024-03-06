@@ -1,0 +1,6 @@
+https://www.datacamp.com/cheat-sheet/regular-expresso
+
+you didn't understood python regex i.e. regular expressions in the past 
+
+dear future me please understand them for me 
+
