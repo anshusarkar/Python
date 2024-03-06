@@ -6,14 +6,14 @@ log = "July 31 07:51:48 mycomputer bad_process[12345]: ERROR Performing package 
 # The PID can be extracted by string sliceing 
 # How ever in this case the postion of the [] is need to be known for that and also the size of the string inside it
 
-index = log.index("[")
+index = log.index("[") 
 
 print(log[index+1:index+6])
 
 # As said before the that PID was extraced cause the length of the string 12345 was known to us
 # To fix this re module or the regular expression module was used
 
-regex = r"\[(\d+)\]"
+regex = r"\[(\d+)\]" # here r stands for raw strings
 
 result = re.search(regex, log)
 
