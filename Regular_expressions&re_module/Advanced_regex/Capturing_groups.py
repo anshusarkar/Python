@@ -46,3 +46,5 @@ print(re.findall(r"\w{5,6}", "a GHOST IS SCARY AF so though you shouldn't get sc
 
 print(re.search(r"s\w{,20}", "I really like strawberries"))
 
+
+
