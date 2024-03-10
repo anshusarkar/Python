@@ -11,6 +11,10 @@ Maintain a clean and organized development environment.
 
 Collaborate with others while ensuring consistent library versions.
 
+________________________________________________________________________________________________________________________________
+
+________________________________________________________________________________________________________________________________
+
 
 To create a virtual environment 
 
@@ -67,10 +71,9 @@ to activate use command : conda activate "Environment-name"
 
 and to deactivate conda environment use command : conda deactivate 
 
+________________________________________________________________________________________________________________________________
 
-
-
-
+________________________________________________________________________________________________________________________________
 
 To generate a txt file contaning packages in an environment
 
@@ -84,3 +87,12 @@ pip install -r requirements.txt
 
 check on : https://www.coursera.org/learn/python-operating-system/supplement/t6Q5o/virtual-environments
 
+________________________________________________________________________________________________________________________________
+
+________________________________________________________________________________________________________________________________
+
+Very important note : after activating conda environment if the terminal closes the terminal get's reverted into the (base) evn that could become an issue to
+
+reslove that using command " nano ~/.bashrc " configure the terminal to open the desired environment 
+
+by addeding the command " conda activate "Enviroment-name" " at the end of the .bashrc file for some linux distros it could be ~/.bash_profile 
