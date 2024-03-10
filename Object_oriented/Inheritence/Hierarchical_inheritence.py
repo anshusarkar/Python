@@ -25,7 +25,7 @@ B = B_class() # This is a hierarchical inheritance as one class was inherited by
 B.method()
 
 C = C_class()
-C.method()
+C.method() 
 
 D = D_class()
 D.method()

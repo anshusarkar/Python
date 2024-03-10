@@ -1,0 +1,13 @@
+using conda make venv, using command :conda create --name "tensorflow-environment-name" # Don't use ""
+
+using conda activate the environment, using command : conda activate "tensorflow-environment"
+
+using conda install tensorflow, using command : conda install tensorflow
+
+install tensorflow-gpu, using command : conda install tensorflow-gpu
+
+to install specific version of any tensorflow use command : conda install tensorflow="version" for gpu tensorflow-gpu="version"
+
+Note : Make different environments for tensorflow and tensorflow-gpu
+
+and to list envs use command conda env list  

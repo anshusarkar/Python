@@ -6,7 +6,7 @@ import time
 
 ascii_art = """
 N   N  EEEE   OOO
-NN  N  E     O   O
+NN  N  E     O   O 
 N N N  EEEE  O   O
 N  NN  E     O   O
 N   N  EEEE   OOO

@@ -14,7 +14,63 @@ Collaborate with others while ensuring consistent library versions.
 
 To create a virtual environment 
 
-python -m venv "Environment-name"
+1) Using built-in module:
+
+python -m venv "Environment-name"  (Don't use "")
+
+to activate source "Environment-name"/bin/activate
+
+and to deactivate use command : deactivate
+
+2) Using virtualenv :
+
+to install use command : pip3 install virtualenv (third-party packages)
+
+to create use command virtualenv "Environment-name"
+
+to activate source "Environment-name"/bin/activate
+
+and to deactivate use command :  deactivate 
+
+3) Using pyenv 
+
+to install use command : curl https://pyenv.run | bash # on Linux
+                         export PATH="$HOME/.pyenv/bin:$PATH"
+                         eval "$(pyenv init --path)"
+                         eval "$(pyenv virtualenv-init -)"
+
+using pyenv install python
+version for the environment using command : pyenv install "version"
+
+to create virtual environment : pyenv virtualenv 3.9.5 "Environment-name" 
+
+to activate use command :       pyenv activate "Environment-name"
+
+and to activate use command :   pyenv deactivate
+
+4) Uisng pipenv (dependency management tool):
+
+to install use command : pip3 install pipenv 
+                         pipenv --python "version"
+                         pipenv shell
+
+to deactivate pipenv shell : exit
+
+5) Using conda :
+
+to install add the update repo in linux using command : wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
+                                                        bash Miniconda3-latest-Linux-x86_64.sh
+
+to create virtual environment use command : conda create --name "Environment-name" python="version"
+
+to activate use command : conda activate "Environment-name"
+
+and to deactivate conda environment use command : conda deactivate 
+
+
+
+
+
 
 To generate a txt file contaning packages in an environment
 
