@@ -1,3 +1,5 @@
+##!/usr/bin/env tf
+
 import tensorflow as tf 
 
 Rank_1_tensor = tf.Variable(["Test"], tf.string)

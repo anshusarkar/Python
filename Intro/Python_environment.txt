@@ -11,6 +11,12 @@ Maintain a clean and organized development environment.
 
 Collaborate with others while ensuring consistent library versions.
 
+# To specify the name of the python run time environment use 
+
+#!/usr/bin/env 'environment-name' (without quots) 
+
+that's called a shebang or hash bang command
+
 ________________________________________________________________________________________________________________________________
 
 ________________________________________________________________________________________________________________________________
