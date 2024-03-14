@@ -1,1 +1,1 @@
-whitebox,blackbox,regression test
+whitebox, blackbox, regression, smoke, load test
