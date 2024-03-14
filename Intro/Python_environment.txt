@@ -15,7 +15,7 @@ Collaborate with others while ensuring consistent library versions.
 
 #!/usr/bin/env 'environment-name' (without quots) 
 
-that's called a shebang or hash bang command
+that's called a shebang or hash bang command (Only use it if not using conda to manage env)
 
 ________________________________________________________________________________________________________________________________
 
