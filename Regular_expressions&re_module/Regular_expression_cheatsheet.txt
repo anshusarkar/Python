@@ -7,3 +7,8 @@ dear future me please understand them for me
 or check out this link
 
 https://www.w3schools.com/python/python_regex.asp
+
+
+for help in regex use Vscode extension Regex Previewer 
+
+Ans drag the th file into a contiguios window to see the output .
