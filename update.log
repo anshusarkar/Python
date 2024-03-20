@@ -1,0 +1,21 @@
+The repos fetched are : 
+
+Hit:1 http://deb.debian.org/debian bookworm InRelease
+Hit:2 http://security.debian.org/debian-security bookworm-security InRelease
+Hit:3 http://deb.debian.org/debian bookworm-updates InRelease
+Hit:4 http://repo.mysql.com/apt/ubuntu lunar InRelease
+Hit:5 https://packages.microsoft.com/repos/code stable InRelease
+Hit:6 https://dl.google.com/linux/chrome/deb stable InRelease
+Hit:7 https://repo.radeon.com/amdgpu/6.0.2/ubuntu focal InRelease
+Hit:8 https://repo.radeon.com/rocm/apt/6.0.2 focal InRelease
+Reading package lists...
+Building dependency tree...
+Reading state information...
+All packages are up to date.
+
+
+ The erros found are :
+
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
