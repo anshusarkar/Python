@@ -1,0 +1,14 @@
+Arrays are called Lists in python 
+Lists are aclled ArrayList in java
+Vector in C++, Array in Ruby, Slice in Go and list in R
+Though R has Vectors too......... 
+
+Also Dictionaries of python are called HashMap in java
+
+Unorderes Map in C++
+
+Hash in Ruby 
+
+and Map in Go
+
+Because of key value pairs .... as all of them uses hashing to store datas in them, you know putting the values in the remainder's index .... that makes the code run supper fast .... 
