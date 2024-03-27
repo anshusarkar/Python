@@ -1,6 +1,7 @@
-Python, created by Guido van Rossum in 1991, is a high-level, dynamically typed, object-oriented,  interpreted , compiled , scripting language. 
+Python, created by Guido van Rossum in 1991, is a high-level, dynamically typed, object-oriented, procidoral or functional,  interpreted , compiled , scripting language. 
 Widely used in web development, data science, AI, and automation, Python draws syntactic inspiration from the ABC and Modula-3 languages. 
-Known for simplicity and readability, it supports multiple paradigms and has a large, active community.
+Known for simplicity and readability, it supports multiple paradigms and has a large, active community. (As pythyon supports multiple programing paradigms such as
+OOP, procidoral that makes it multiple paradigm language like Kotline and java script which supports OOPS and procidoral programming).
 
 
 Note : As python is scripting language the script must be given permisiion to execute by using chmod +x in linux system just like shell script
