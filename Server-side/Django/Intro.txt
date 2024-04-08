@@ -1,0 +1,16 @@
+Django is a full-stack web framework written in Python
+Django is one of the most 
+popular frameworks worldwide. 
+It’s a free, open-source Python framework 
+designed for building websites of any size, 
+with any traffic needs. Django is sturdy and 
+efficient, particularly because it makes use 
+of reusable code. Django is also more secure 
+than Flask, but Django software is much more 
+unwieldy to work with. Developers may find 
+Django slow because of the need to employ 
+reusable modules and the need to check compatibility
+against previous versions. 
+
+YouTube, Instagram, Spotify, and 
+DropBox were built with Django.

@@ -1,0 +1,4 @@
+Requests is a third-party Python module that 
+you can easily download and install to simplify sending HTTP requests. It’s easy to use and has been around for a while, so it’s frequently chosen by developers. 
+There are newer derivatives of Requests 
+that are gaining popularity, like HTTPX and AIOHTTP. 

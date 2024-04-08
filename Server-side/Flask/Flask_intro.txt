@@ -1,0 +1,8 @@
+Flask is a flexible and comfortable web development framework that is easy to set 
+up and simple to use, which makes it good for beginners. 
+Tools like template engines, for caching, and authentication help developers work quickly. 
+But Flask handles requests sequentially, so although you can get commercial projects going fast using Flask, 
+it isn't good for high load needs. Flask also uses third-party modules, which can make it 
+prone to security breaches. 
+
+Uber, Pinterest, and Twilio were all built using the Flask framework.

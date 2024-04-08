@@ -1,0 +1,10 @@
+FastAPI is exactly what the name says: fast. 
+It’s an open-source, high-performing web 
+framework for building web APIs in Python, 
+and it includes hints similar to those in 
+Python. The main downside of FastAPI is how new it is. 
+The FastAPI documentation is robust, but there is not 
+as much in the way of external materials or community for 
+Fast API as there is for Flask and Django. 
+
+Netflix uses FastAPI internally. 
