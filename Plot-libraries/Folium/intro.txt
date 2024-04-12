@@ -1,0 +1,5 @@
+Folium is a powerful data visualization libray in python that was 
+built primarily for people to use geospatial data.
+
+using Folium one can create a map of any location in the world
+using latitude and longitude values. 
