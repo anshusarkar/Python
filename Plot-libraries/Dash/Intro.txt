@@ -1,0 +1,6 @@
+Dash is a Python framework for 
+building web applications, particularly 
+interactive web applications for data 
+visualization. It's primarily used for 
+creating interactive dashboards and data 
+visualization tools.
