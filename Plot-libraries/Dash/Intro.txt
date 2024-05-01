@@ -4,3 +4,6 @@ interactive web applications for data
 visualization. It's primarily used for 
 creating interactive dashboards and data 
 visualization tools.
+
+All of the dash apps are made with A.I. and I know very low about Dash and I don't fully understand how it 
+utilizes the html .
