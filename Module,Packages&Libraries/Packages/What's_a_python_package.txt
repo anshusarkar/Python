@@ -1,0 +1,5 @@
+A pcakage in python is a collection of 
+pyhton modules into a dictionary with a __init__.py 
+the __init__.py file should contain 
+
+from . import 'name_of the modules' as a statement 
