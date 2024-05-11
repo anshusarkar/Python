@@ -8,8 +8,8 @@ import unittest
 
 class TestRearrange(unittest.TestCase): # inherating from unittest.TestCase 
     def test_basic(self):
-        testcase = "Lovelace, Ada"
-        expected = "Ada Lovelace"
+        testcase = "Lovelace, Ada" # A computer scientist and programmer also the name of nvidia's 40 series gpu's archetecture 
+        expected = "Ada Lovelace"  
         self.assertEqual(rearrange_name(testcase), expected)
         
     # Adding another test case to check if the string is empty
