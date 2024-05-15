@@ -2,7 +2,7 @@ from flask import Flask
 
 app = Flask(__name__)
 
-@app.route('/') # This decorator takes 
+@app.route('/') # this decorator routes a folder as an argument, the / defualts to durrent directory 
 def hello_world():
     return "<b> My first application in action ! </>"
 
