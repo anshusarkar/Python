@@ -7,6 +7,8 @@ def hello_world():
     return "<b> My first application in action ! </>"
 
 
+
+
 app.run()
 
 # It's better to add a if__name__ == '__main__' over the app.run() statement as 
