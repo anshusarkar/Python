@@ -1,0 +1,6 @@
+sudo dnf install python3-devel python3-pip python3-tkinter xorg-x11-server-Xvfb
+sudo dnf install python3-devel python3-pip python3-tkinter xorg-x11-server-Xvfb
+export DISPLAY=:0
+xhost +SI:localuser:$(whoami)
+Xvfb :99 -screen 0 1024x768x16 &
+export DISPLAY=:99
