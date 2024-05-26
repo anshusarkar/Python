@@ -36,3 +36,7 @@ if 1 != 2 :
     timer(seconds = sec, minutes = min)
     bombard()   
 
+# Before execution put the cursour in a message box in any chatting application and wait 
+# for the amount of time that was given as input to the program
+# the individual would be bombarded with messages :) 
+# I would propose somebody with this script someday !  
