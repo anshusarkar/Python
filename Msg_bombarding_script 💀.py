@@ -1,4 +1,4 @@
-import pyautogui as auto
+import pyautogui as auto # run in linux ... windwos can't even install all the dependencies 
 import time 
 
 def bombard():
