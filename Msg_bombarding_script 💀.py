@@ -17,3 +17,10 @@ while True:
 # it should run ... 
 
 # run it in python shell .. exicution through python3 command or in any code editor might not work ..
+# meaning copy th code and run it in python shell by opening it using command "Python3"
+# in any os then slowly move to the whatsapp web 
+# opening the individual name and then presiing on the msg box 
+# would iniciate the ms bombarding 
+# Using time module you can auto mate the script to run on specific time 
+# though don't chnage the time.sleep(1) as it sends the sg in the time duration of 1 sec .
+
