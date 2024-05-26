@@ -1,13 +1,17 @@
 import pyautogui as auto
 import time 
 
+minutes = int(input("Enter the minutes before the intialization of the bombardment : "))
+seconds_before_msg_bobardment = minutes * 60
+time.sleep(seconds_before_msg_bobardment)
+
 while True:
     auto.write("Hello, world!")
     auto.press('enter')
     time.sleep(1)
     
 # The code will bombard any massage box and would make system press on enter button 
-# continously (Syccesfull ran of fedora after maneging dependencies)
+# continously (Syccesfull ran was done in fedora after maneging dependencies)
 
 # requied dependencie to work 
 # sudo dnf install python3-devel python3-pip python3-tkinter xorg-x11-server-Xvfb
