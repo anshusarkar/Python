@@ -16,7 +16,7 @@ def bombard():
 
     while True:
         # Type "Hello, world!"
-        keyboard.type("Hello, world!")
+        keyboard.type("Hello, world!") # Change the msg according to your preferance !
         
         # Press 'Enter' key
         keyboard.press(Key.enter)
