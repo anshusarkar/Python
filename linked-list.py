@@ -1,5 +1,5 @@
 class LinkedList:
-    def __init__(self, data=None): # Here data input's dosen't have types !
+    def __init__(self, data=None): # Here data inputs dosen't have types !
         self.data = data
         self.next = None
 
