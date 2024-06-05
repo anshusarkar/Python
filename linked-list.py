@@ -10,7 +10,7 @@ class LinkedList:
         else:
             last_node = self.next
             while last_node.next is not None :
-                last_node = last_node.next
+                last_node = last_node.next # This would incress the number of connected nodes thus incressing the total number of connected nodes
             last_node.next = new_node 
             # That code chunck starting from else block would                           
             # instantiate a new node connected with previous node for each call of insert method
