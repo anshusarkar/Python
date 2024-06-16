@@ -1,0 +1,20 @@
+from flask import Flask , escape
+import requests 
+
+app = Flask(__name__)
+
+@app.route("/")
+
+def get_author():
+    res = requests.get("https://openlibrary.org/search/authors.JSON?q=Michael Circhton")
+    
+    if res.status_code == 200:
+        return {"message": res.JSON()}
+    elif res.status_code == 404:
+        return {"message": "Something went wrong"}, 404
+    else: 
+        return {"message" : "Server error !"}, 500
+    
+    
+if __name__ == "__main__" :
+    app.run()
