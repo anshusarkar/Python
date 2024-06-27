@@ -75,6 +75,8 @@ to create virtual environment use command : conda create --name "Environment-nam
 
 to activate use command : conda activate "Environment-name"
 
+to list conda environments use command : conda info --envs
+
 and to deactivate conda environment use command : conda deactivate 
 
 ________________________________________________________________________________________________________________________________
