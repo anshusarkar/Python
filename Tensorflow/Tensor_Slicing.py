@@ -1,6 +1,8 @@
+#!#!/home/anshu/anaconda3/envs/Tensorflow/bin/python
+
 import tensorflow as tf
 import numpy as np # just used numpy because i could have lol 
-matrix =np.array([[1,5] , 
+matrix = np.array([[1,5] , 
                   [65,36] ,
                   [3,4],
                   [8,0]])

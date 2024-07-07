@@ -1,3 +1,5 @@
+#!/home/anshu/anaconda3/envs/Tensorflow/bin/python
+
 import tensorflow as tf 
 
 tensor1 = tf.ones([1,2,3]) # one 2x3 tensor 
