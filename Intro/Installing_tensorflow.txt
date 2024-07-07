@@ -7,13 +7,15 @@ using conda activate the environment, using command : conda activate "tensorflow
 
 using conda install tensorflow, using command : conda install tensorflow
 
-install tensorflow-gpu, using command : conda install tensorflow-gpu
+install tensorflow-gpu, using command : conda install tensorflow-gpu or pip install tensorflow[and-cuda]
 
 to install specific version of any tensorflow use command : conda install tensorflow="version" for gpu tensorflow-gpu="version"
 
 Note : Make different environments for tensorflow and tensorflow-gpu
 
 and to list envs use command conda env list  
+
+Note :- CUDA-Toolkit and Cudnn must be installed to run tensorflow in gpu
 
 ________________________________________________________________________________________________________________________________
 
