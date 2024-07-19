@@ -1,0 +1,4 @@
+Flusk is a python frame work to build websites that helps to perform CURD operations for an user with the web app .
+
+CRUD - Create, Read, Update, Delete . 
+

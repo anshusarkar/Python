@@ -1,6 +1,6 @@
 from flask import Flask
 
-app = Flask(__name__)
+app = Flask(__name__) # here goes the app name in string format 
 
 @app.route('/') # this decorator routes a folder as an argument, the / defualts to durrent directory 
 def hello_world():
