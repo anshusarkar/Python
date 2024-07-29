@@ -1,0 +1,13 @@
+To start a django project install the django packgae using pip 
+then yuo may and may notconfigure an environment variable 
+
+After the installation  of django 
+use command -> django-admin startproject "Projectname" (Without quotes)
+which would create a new project directory with the given name 
+
+TO run preconfigured server use command -> python manage.py runserver 
+
+Django is  used to perform CRUD operations ->  C = create
+                                               R = read 
+                                               U = update
+                                               D = delete
