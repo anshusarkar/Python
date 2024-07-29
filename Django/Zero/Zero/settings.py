@@ -123,5 +123,13 @@ STATIC_URL = 'static/'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
  
-# added manually 
+# must be added manually |
+    #                    v
 
+# The absolute path to the directory where collectstatic will collect static files for deployment.
+STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
+
+# Additional locations the staticfiles app will traverse to collect static files.
+STATICFILES_DIRS = [
+    os.path.join(BASE_DIR, 'Zero', 'static'),
+]

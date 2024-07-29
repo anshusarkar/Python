@@ -21,6 +21,7 @@ from Zero import views # This must be imported manualy won't the givven by deful
 urlpatterns = [
     path('admin/', admin.site.urls), # this would be /admin page 
     path('', views.index, name='index'), # This function tell's to run the the index function of the view.py amd the empty string '' tells to run it by defulat
-    path('about/', views.about, name='about'), # this would be /adbout page 
+    path('about/', views.about, name='about'), # this would be /about page 
     path('services/', views.services, name='services'), # this would redirect to /services pages 
+
 ]
