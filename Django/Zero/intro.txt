@@ -11,3 +11,38 @@ Django is  used to perform CRUD operations ->  C = create
                                                R = read 
                                                U = update
                                                D = delete
+
+        Here is the file structure for the project and where to keep the templates and statics
+
+myproject/
+    manage.py
+    myproject/
+        __init__.py
+        settings.py
+        urls.py
+        wsgi.py
+        asgi.py
+        templates/       # Project-level templates directory
+            base.html
+            index.html
+        static/          # Project-level static files directory
+            css/
+                style.css
+            js/
+                script.js
+            images/
+                logo.png
+    myapp/
+        __init__.py
+        models.py
+        views.py
+        urls.py
+        templates/       # Optional app-level templates directory
+            myapp/
+                app_specific.html
+        static/          # Optional app-level static files directory
+            myapp/
+                css/
+                    app_style.css
+                js/
+                    app_script.js
