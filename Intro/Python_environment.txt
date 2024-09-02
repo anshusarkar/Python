@@ -17,6 +17,11 @@ Collaborate with others while ensuring consistent library versions.
 
 that's called a shebang or hash bang command (Only use it if not using conda to manage env)
 
+to set a conda environment varriable value use the command below :
+
+conda env config vars set "Environment-name"="Your API key" (Without quotes)
+
+
 ________________________________________________________________________________________________________________________________
 
 ________________________________________________________________________________________________________________________________
