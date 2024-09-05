@@ -1,0 +1,1 @@
+print("Hello, welcome home !\n"*100)
