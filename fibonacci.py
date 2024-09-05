@@ -1,5 +1,5 @@
-def fib_sequence():
-    print("Enter the limit (Don't worry about the limit it won't be Problem like CPP where the best it could it 48th ): ", end="")
+def fib_sequence() -> None :
+    print("Enter the limit (Don't worry about the limit it won't be Problem like CPP where the best it could is 48th sequence for python max limit is 4300 ): ", end="")
     inp = int(input())
     prevar = 0
     nextvar = 1
