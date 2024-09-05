@@ -9,6 +9,6 @@ print(next(gen))
 print(next(gen))
 
 
-for i in gen :            # All generatable values can be genreted through a for loop 
-    print(i)
+# for i in gen :            # All generatable values can be genreted through a for loop 
+#     print(i)
     
