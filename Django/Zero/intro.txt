@@ -1,5 +1,5 @@
 To start a django project install the django packgae using pip 
-then yuo may and may notconfigure an environment variable 
+then yuo may and may not configure an environment variable 
 
 After the installation  of django 
 use command -> django-admin startproject "Projectname" (Without quotes)
