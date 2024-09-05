@@ -1,6 +1,8 @@
 from pynput.keyboard import Key, Controller
 import time
 
+# Dosen't work in wsl 
+
 # Initialize the keyboard controller
 keyboard = Controller()
 
