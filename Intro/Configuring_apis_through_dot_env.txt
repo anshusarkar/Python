@@ -1,0 +1,17 @@
+uisng conda install dotenv module 
+
+using command "conda install -c conda-forge python-dotenv"
+
+then in a .env file place the API_KEY 
+
+under varriable API_KEY=your_api_key_here 
+
+then in python file import the key following these line of codes 
+
+from dotenv import load_dotenv
+import os
+
+load_dotenv()  # Load environment variables from .env file
+
+api_key = os.getenv('API_KEY')
+print(api_key)

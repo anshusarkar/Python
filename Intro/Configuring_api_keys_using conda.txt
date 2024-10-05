@@ -1,0 +1,17 @@
+conda create --name "Enviroment--name" (without "")
+
+conda activate "Enviroment--name" (without "")
+
+Step 2: Set Environment Variable for API Key
+On Linux or macOS, use:
+
+export API_KEY="your_api_key_here"
+
+On Windows (using Command Prompt or PowerShell), use:
+
+set API_KEY="your_api_key_here"
+
+import os
+
+api_key = os.getenv('API_KEY')
+print(api_key)  # This will print your API key if set correctly
