@@ -2,7 +2,7 @@ conda create --name "Enviroment--name" (without "")
 
 conda activate "Enviroment--name" (without "")
 
-conda env config vars set "Environment-name"="Your API key" (Without quotes)
+conda env config vars set "API_KEY"="your_api_key_here" (Without quotes)
 
 conda deactivate "Environment-name" (Without quotes)
 
@@ -14,7 +14,13 @@ In the code (API_KEY) is the name of the environment variable .. change it accor
 
 I meant that it in place of API_KEY there should be Environment-name .
 
+in python file using os module API_KEY can be printed 
+
 import os
 
 api_key = os.getenv('API_KEY')
 print(api_key)  # This will print your API key if set correctly
+
+or,
+
+using command echo &API_KEY  the key can be printed in the terminal 
