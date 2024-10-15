@@ -4,5 +4,5 @@ this library is avaliable in python or javascript
 the vizs saved using this library can be saved to html files or
 can be used to built pure Python-built web appilations.
 
-dash is a react and flusk based library that get's used to 
+dash is a react and flask based library that get's used to 
 represent dynamic datas 
