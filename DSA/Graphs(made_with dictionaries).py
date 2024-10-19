@@ -1,7 +1,6 @@
-# Graphs are created through Dictionaries or Has maps.
+# Graphs can be created through Dictionaries or Hashmaps.
 
-# though Dictionaries are essential for creating Graphs a can be Dictionary of tuples, lists or arrays etc ...
-
+# though Dictionaries are essential for creating Graphs it can be made with Dictionary of tuples, Dictionary lists or arrays even with matrices ...
 
 # A simple graph using dictionary
 
