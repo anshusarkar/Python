@@ -22,7 +22,7 @@ class LinkedList:
             current_node = current_node.next
         print("None")
 
-# Example usage
+
 llist = LinkedList(1)
 llist.insert("cat")
 llist.insert(3)
