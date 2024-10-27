@@ -1,0 +1,4 @@
+Like Pytorch TensorFlow is a deep learning library That uses the Tensor or 3d array which is made by google 
+
+but the spacial thing about tensors is that it CAN be processed by TPU i.e Tensor processing units or By GPUS i.e Graphics processing units through the use of environments or Kernels
+
