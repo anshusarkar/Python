@@ -1,4 +1,4 @@
-all the codes of python must be run mentioning the bin directory at the top like this 
+all the codes of python must be ran mentioning the bin directory at the top like this 
 
 #!/usr/bin/env python3   (env part is python environment)
 
