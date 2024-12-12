@@ -1,4 +1,4 @@
-#!/home/anshu/anaconda3/envs/Tensorflow-gpu/bin/python
+##!/home/anshu/anaconda3/envs/Tensorflow-gpu/bin/python
 
 # In the above line of the shebang command Tensorflow is the name of the environment variable of my system change it accordiong
 
