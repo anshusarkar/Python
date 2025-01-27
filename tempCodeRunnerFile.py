@@ -1,1 +1,1 @@
-, **kwargs
+assert x < 5, "assertion failed !"  # Raises AssertionError because the condition is False
