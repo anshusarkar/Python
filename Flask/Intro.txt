@@ -1,4 +1,4 @@
-Flask is a python frame work to build websites that helps to perform CURD operations for an user with the web app .
+Flask is a python frame work to build websites that helps to perform CURD operations for an user with the web app . ( Just like SQL )
 
 CRUD - Create, Read, Update, Delete . 
 
