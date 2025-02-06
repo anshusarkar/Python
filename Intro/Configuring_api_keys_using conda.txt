@@ -2,7 +2,7 @@ conda create --name "Enviroment--name" (without "")
 
 conda activate "Enviroment--name" (without "")
 
-conda env config vars set "API_KEY"="your_api_key_here" (Without quotes)
+conda env config vars set API_KEY="your_api_key_here" (Without quotes)
 
 conda deactivate "Environment-name" (Without quotes)
 
