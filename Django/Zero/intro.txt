@@ -14,6 +14,8 @@ Django is  used to perform CRUD operations ->  C = create
 
         Here is the file structure for the project and where to keep the templates and statics
 
+Django works on MMVT architecture (Model View Template)
+
 myproject/
     manage.py
     myproject/
@@ -46,3 +48,14 @@ myproject/
                     app_style.css
                 js/
                     app_script.js
+
+use command python manage.py startapp "app_name" (Without quotes) to make an app 
+
+create a urls.py in the app folder
+
+copy the contains of urls.py from the project folder to app folder's urls.py
+
+use command `python3 manage.py  makemigrations` to create migration files based on the changes made to your models (database schema). 
+These migration files keep track of database structure changes, such as adding new models, modifying fields, or deleting tables.
+
+to run the actual database run python3 manage.py migrate
