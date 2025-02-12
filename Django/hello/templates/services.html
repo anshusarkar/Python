@@ -1,7 +1,11 @@
 {% extends "base.html" %}
+{% load static %}
 {%block body%}
 {%block title%}
 Services
 {%endblock title%}
 This is my services block
+<!DOCTYPE html>
+<link rel="stylesheet" type="text/css" href="{% static 'css/services.css' %}"> {# Corrected CSS link #}
+
 {%endblock body%}

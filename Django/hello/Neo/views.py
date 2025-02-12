@@ -18,3 +18,9 @@ def services(request):
 def contact(request):
     # return HttpResponse("This is contact page !")
     return render(request, 'contact.html', context=context)
+def alpha(request):
+    return render(request,'alpha.html', context=context)
+def beta(request):
+    return render(request,'beta.html', context=context)
+def gamma(request):
+    return render(request,'gamma.html', context=context)

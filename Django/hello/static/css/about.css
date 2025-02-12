@@ -1,0 +1,10 @@
+.container-mt-5{
+    margin-left: auto; 
+    margin-right: auto;
+}
+.col-md-6{
+    width : 600 ;
+    height : 300;
+    padding: 20px;
+    margin: 17px;
+}

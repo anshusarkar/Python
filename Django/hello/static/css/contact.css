@@ -1,0 +1,21 @@
+.container{
+    position: relative;
+    top: 3px;
+    text-align: center;
+}
+.form-container {
+    max-width: 600px; /* Adjust as needed - sets the maximum width of the form */
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px; /* Optional: Add some padding around the form */
+    /* Optional: Add a border or background to visually see the container */
+    /* border: 1px solid #ccc;
+    background-color: #f9f9f9; */
+}
+h1 {
+    text-align: center; /* Optional, but good for consistency if you want text centered within the <h1> itself */
+    display: block;     /* <h1> is block by default, but making it explicit */
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 600px; /* Optional: Limit the width of the heading if needed */
+}
