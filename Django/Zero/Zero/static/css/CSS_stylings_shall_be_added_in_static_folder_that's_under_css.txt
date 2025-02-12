@@ -1,2 +1,0 @@
-All css files shall be added into the static folder for flask app 
-unless it's inline css 
