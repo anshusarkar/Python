@@ -1,7 +1,7 @@
 x=[]
 y=()
 z={}
-print(dir(x)) #dir() method lists all avalabile into a list operations for an object i.e. methods and dender methods (methods with under scores) .
+print(dir(x)) #dir() method lists all avalabile into a list operations for an object i.e. methods and dunder methods or magic methods (methods with under scores) .
 print(dir(y),"\n")
 print(dir(z),"\n")
 
